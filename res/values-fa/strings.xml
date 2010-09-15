@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2007 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+  
+          http://www.apache.org/licenses/LICENSE-2.0
+  
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_name">نصب بسته‌ها</string>
+    <string name="install">نصب</string>
+    <string name="done">اتمام</string>
+    <!-- TODO REMOVE LATER -->
+    <string name="security_settings_desc">به برنامه اجازه داده شود:</string>
+    <string name="cancel">لغو</string>
+    <string name="unknown">ناشناس</string>
+    <string name="installing">در حال نصب\u2026</string>
+    <string name="install_done">برنامه نصب شد.</string>
+    <string name="install_confirm_question">این برنامه نصب شود؟</string>
+    <string name="install_failed">برنامه نصب نشد.</string>
+    <string name="install_failed_msg">برنامهٔ <xliff:g id="app_name">%1$s</xliff:g> را نمی‌توان رو گوشی شما نصب کرد.</string>
+    <string name="launch">باز کردن</string>
+    <string name="unknown_apps_dlg_title">نصب مسدود شده است.</string>
+    <string name="unknown_apps_dlg_text">به دلایل امنیتی، تنظیمات گوشی شما از نصب برنامه‌هایی که از مارکت اندروید گرفته نشده است، جلوگیری می‌کند.</string>
+    <string name="ok">خُب</string>
+    <string name="settings">تنظیمات</string>
+    <string name="manage_applications">مدیریت برنامه‌ها</string>
+    <string name="dlg_app_replacement_title">جایگزینی</string>
+    <string name="dlg_app_replacement_statement">برنامه‌ای که می‌خواهید نصب کنید، جایگزین برنامهٔ دیگری می‌شود. \n\nهمهٔ داده‌های شما حفظ خواهد شد.</string>
+    <!-- Dialog attributes when replacing system app -->
+    <string name="dlg_sys_app_replacement_statement">این یک برنامهٔ سیستمی است. باز هم با جایگزینی موافقید؟\n\n همهٔ داده‌های شما حفظ خواهد شد</string>
+    <string name="out_of_space_dlg_title">کمبود فضا</string>
+    <string name="out_of_space_dlg_text">برنامهٔ <xliff:g id="app_name">‏%1$s</xliff:g> را نمی‌توانید نصب کنید. پس از خالی کردن مقداری از حافظه، دوباره امتحان کنید.</string>
+    <!-- strings related to uninstall activity -->
+    <string name="dlg_ok">خُب</string>
+    <string name="app_not_found_dlg_title">برنامه پیدا نشد.</string>
+    <string name="app_not_found_dlg_text"> برنامه در لیست برنامه‌های نصب شده، پیدا نشد.</string>
+    <string name="uninstall_application_question">حذف برنامه؟</string>
+    <string name="uninstall_update_question">حذف به‌روزرسانی؟</string>
+    <string name="uninstall_application_text">این برنامه حذف خواهد شد.</string>
+    <string name="uninstall_update_text">به‌روزرسانی برنامه حذف خواهد شد، اما همچنان می‌توانید از نسخهٔ اولیه استفاده کنید.</string>
+    <string name="uninstalling">در حال حذف\u2026</string>
+    <string name="uninstall_done">حذف تمام شد.</string>
+    <string name="uninstall_failed">حذف ناموفق بود.</string>
+    <string name="uninstall_failed_msg">برنامهٔ <xliff:g id="app_name">%1$Ls</xliff:g> را نمی‌توان حذف کرد.</string>
+
+    <!-- Dialog attributes to indicate parse errors -->
+    <string name="Parse_error_dlg_title">خطا در خواندن</string>
+    <string name="Parse_error_dlg_text">خواندن بسته با مشکل مواجه شد.</string>
+</resources>
