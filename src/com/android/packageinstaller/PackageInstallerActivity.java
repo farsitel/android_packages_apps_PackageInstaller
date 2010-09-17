@@ -202,7 +202,7 @@ public class PackageInstallerActivity extends Activity implements OnCancelListen
         finish();
     }
     
-    private boolean isInstallingUnknownAppsAllowed() {
+    protected boolean isInstallingUnknownAppsAllowed() {
         return Settings.Secure.getInt(getContentResolver(), 
             Settings.Secure.INSTALL_NON_MARKET_APPS, 0) > 0;
     }

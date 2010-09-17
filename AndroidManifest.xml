@@ -4,6 +4,9 @@
 
     <original-package android:name="com.android.packageinstaller" />
 
+    <permission android:name="com.android.packageinstaller.INSTALL_BAZAAR_APPS"
+                android:protectionLevel="dangerous" />
+
     <uses-permission android:name="android.permission.INSTALL_PACKAGES" />
     <uses-permission android:name="android.permission.DELETE_PACKAGES" />
     <uses-permission android:name="android.permission.CLEAR_APP_CACHE" />
@@ -15,6 +18,18 @@
                 android:theme="@style/TallTitleBarTheme">
             <intent-filter>
                 <action android:name="android.intent.action.VIEW" />
+                <category android:name="android.intent.category.DEFAULT" />
+                <data android:scheme="content" />
+                <data android:scheme="file" />
+                <data android:mimeType="application/vnd.android.package-archive" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".BazaarPackageInstallerActivity"
+                android:configChanges="orientation|keyboardHidden"
+                android:permission="com.android.packageinstaller.INSTALL_BAZAAR_APPS"
+                android:theme="@style/TallTitleBarTheme">
+            <intent-filter>
+                <action android:name="com.android.packageinstaller.VIEW_BAZAAR" />
                 <category android:name="android.intent.category.DEFAULT" />
                 <data android:scheme="content" />
                 <data android:scheme="file" />
