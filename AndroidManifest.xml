@@ -5,6 +5,8 @@
     <original-package android:name="com.android.packageinstaller" />
 
     <permission android:name="com.android.packageinstaller.INSTALL_BAZAAR_APPS"
+                android:label="@string/permlab_installBazaarApps"
+                android:description="@string/permdesc_installBazaarApps"
                 android:protectionLevel="dangerous" />
 
     <uses-permission android:name="android.permission.INSTALL_PACKAGES" />

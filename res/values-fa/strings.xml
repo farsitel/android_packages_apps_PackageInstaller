@@ -29,7 +29,7 @@
     <string name="install_failed_msg">برنامهٔ <xliff:g id="app_name">%1$s</xliff:g> را نمی‌توان رو گوشی شما نصب کرد.</string>
     <string name="launch">باز کردن</string>
     <string name="unknown_apps_dlg_title">نصب مسدود شده است.</string>
-    <string name="unknown_apps_dlg_text">به دلایل امنیتی، تنظیمات گوشی شما از نصب برنامه‌هایی که از مارکت اندروید گرفته نشده است، جلوگیری می‌کند.</string>
+    <string name="unknown_apps_dlg_text">به دلایل امنیتی، تنظیمات گوشی شما از نصب برنامه‌هایی که از بازار گرفته نشده است، جلوگیری می‌کند.</string>
     <string name="ok">خُب</string>
     <string name="settings">تنظیمات</string>
     <string name="manage_applications">مدیریت برنامه‌ها</string>
@@ -55,4 +55,7 @@
     <!-- Dialog attributes to indicate parse errors -->
     <string name="Parse_error_dlg_title">خطا در خواندن</string>
     <string name="Parse_error_dlg_text">خواندن بسته با مشکل مواجه شد.</string>
+
+    <string name="permlab_installBazaarApps">درخواست نصب ای‌پی‌کی بدون اخطار «منبع نامشخص»</string>
+    <string name="permdesc_installBazaarApps">به برنامه اجازه می‌دهد از «نصب بسته‌ها» بخواهد یک برنامه را با اینکه از بازار گرفته نشده است، بدون نمایش اخطار نصب کند.</string>
 </resources>
