@@ -56,6 +56,6 @@
     <string name="Parse_error_dlg_title">خطا در خواندن</string>
     <string name="Parse_error_dlg_text">خواندن بسته با مشکل مواجه شد.</string>
 
-    <string name="permlab_installBazaarApps">درخواست نصب ای‌پی‌کی بدون اخطار «منبع نامشخص»</string>
+    <string name="permlab_installBazaarApps">درخواست نصب بسته، بدون اخطار «منبع نامشخص»</string>
     <string name="permdesc_installBazaarApps">به برنامه اجازه می‌دهد از «نصب بسته‌ها» بخواهد یک برنامه را با اینکه از بازار گرفته نشده است، بدون نمایش اخطار نصب کند.</string>
 </resources>
